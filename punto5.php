@@ -45,33 +45,16 @@
                 <h4 class="text-center">Sucursales</h4>
                 <div class="row">
                     <div class="col">
-                    <input type="text" class="form-control" placeholder="Nombre" name="nombre">
+                    <input type="text" class="form-control" placeholder="Nombre" name="nombre[]">
                     </div>
                     <div class="col">
-                    <input type="text" class="form-control" placeholder="Apellido" name="apellido">
+                    <input type="text" class="form-control" placeholder="Apellido" name="apellido[]">
                     </div>
                     <div class="col">
-                    <input type="number" class="form-control" placeholder="Telefono" name="telefono">
+                    <input type="number" class="form-control" placeholder="Telefono" name="telefono[]">
                     </div>
                     <div class="col">
-                    <input type="text" class="form-control" placeholder="Direccion" name="direccion">
-                    </div>
-                    <div class="col">
-                    <input type="number" class="form-control" placeholder="Salario" name="salario[]">
-                    </div>
-                </div>
-                <div class="row mt-3">
-                    <div class="col">
-                    <input type="text" class="form-control" placeholder="Nombre" name="nombre2">
-                    </div>
-                    <div class="col">
-                    <input type="text" class="form-control" placeholder="Apellido" name="apellido2">
-                    </div>
-                    <div class="col">
-                    <input type="number" class="form-control" placeholder="Telefono" name="telefono2">
-                    </div>
-                    <div class="col">
-                    <input type="text" class="form-control" placeholder="Direccion" name="direccion2">
+                    <input type="text" class="form-control" placeholder="Direccion" name="direccion[]">
                     </div>
                     <div class="col">
                     <input type="number" class="form-control" placeholder="Salario" name="salario[]">
@@ -79,33 +62,16 @@
                 </div>
                 <div class="row mt-3">
                     <div class="col">
-                    <input type="text" class="form-control" placeholder="Nombre" name="nombre3">
+                    <input type="text" class="form-control" placeholder="Nombre" name="nombre[]">
                     </div>
                     <div class="col">
-                    <input type="text" class="form-control" placeholder="Apellido" name="apellido3">
+                    <input type="text" class="form-control" placeholder="Apellido" name="apellido[]">
                     </div>
                     <div class="col">
-                    <input type="number" class="form-control" placeholder="Telefono" name="telefono3">
+                    <input type="number" class="form-control" placeholder="Telefono" name="telefono[]">
                     </div>
                     <div class="col">
-                    <input type="text" class="form-control" placeholder="Direccion" name="direccion3">
-                    </div>
-                    <div class="col">
-                    <input type="number" class="form-control" placeholder="Salario" name="salario[]">
-                    </div>
-                </div>
-                <div class="row mt-3">
-                    <div class="col">
-                    <input type="text" class="form-control" placeholder="Nombre" name="nombre4">
-                    </div>
-                    <div class="col">
-                    <input type="text" class="form-control" placeholder="Apellido" name="apellido4">
-                    </div>
-                    <div class="col">
-                    <input type="number" class="form-control" placeholder="Telefono" name="telefono4">
-                    </div>
-                    <div class="col">
-                    <input type="text" class="form-control" placeholder="Direccion" name="direccion4">
+                    <input type="text" class="form-control" placeholder="Direccion" name="direccion[]">
                     </div>
                     <div class="col">
                     <input type="number" class="form-control" placeholder="Salario" name="salario[]">
@@ -113,16 +79,50 @@
                 </div>
                 <div class="row mt-3">
                     <div class="col">
-                    <input type="text" class="form-control" placeholder="Nombre" name="nombre5">
+                    <input type="text" class="form-control" placeholder="Nombre" name="nombre[]">
                     </div>
                     <div class="col">
-                    <input type="text" class="form-control" placeholder="Apellido" name="apellido5">
+                    <input type="text" class="form-control" placeholder="Apellido" name="apellido[]">
                     </div>
                     <div class="col">
-                    <input type="number" class="form-control" placeholder="Telefono" name="telefono5">
+                    <input type="number" class="form-control" placeholder="Telefono" name="telefono[]">
                     </div>
                     <div class="col">
-                    <input type="text" class="form-control" placeholder="Direccion" name="direccion5">
+                    <input type="text" class="form-control" placeholder="Direccion" name="direccion[]">
+                    </div>
+                    <div class="col">
+                    <input type="number" class="form-control" placeholder="Salario" name="salario[]">
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col">
+                    <input type="text" class="form-control" placeholder="Nombre" name="nombre[]">
+                    </div>
+                    <div class="col">
+                    <input type="text" class="form-control" placeholder="Apellido" name="apellido[]">
+                    </div>
+                    <div class="col">
+                    <input type="number" class="form-control" placeholder="Telefono" name="telefono[]">
+                    </div>
+                    <div class="col">
+                    <input type="text" class="form-control" placeholder="Direccion" name="direccion[]">
+                    </div>
+                    <div class="col">
+                    <input type="number" class="form-control" placeholder="Salario" name="salario[]">
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col">
+                    <input type="text" class="form-control" placeholder="Nombre" name="nombre[]">
+                    </div>
+                    <div class="col">
+                    <input type="text" class="form-control" placeholder="Apellido" name="apellido[]">
+                    </div>
+                    <div class="col">
+                    <input type="number" class="form-control" placeholder="Telefono" name="telefono[]">
+                    </div>
+                    <div class="col">
+                    <input type="text" class="form-control" placeholder="Direccion" name="direccion[]">
                     </div>
                     <div class="col">
                     <input type="number" class="form-control" placeholder="Salario" name="salario[]">
@@ -137,12 +137,49 @@
 
                 <?php
                     $salarios=$_POST["salario"];
+                    $nombre=$_POST["nombre"];
+                    $apellido=$_POST["apellido"];
+                    $telefono=$_POST["telefono"];
+                    $direccion=$_POST["direccion"];
                     $sumatoriaSalarios=0;
+                    $sucursalb=40000000;
+                    $sucursalc=32000000;
                     foreach($salarios as $valor){
                         $sumatoriaSalarios=$sumatoriaSalarios+$valor;
                     }
-                    echo("La sumatoria es: ".$sumatoriaSalarios);
+                    echo("La sumatoria es: ".$sumatoriaSalarios);echo("<br>");
+
+                    if($sumatoriaSalarios > $sucursalb){
+                        echo("La sucursal A tiene mejor rendimiento en: ".$sumatoriaSalarios);
+                    }else{
+                        echo("La sucursal B tiene mejor rendimiento en: ".$sucursalb);
+                    }
                 ?>
+
+                
+
+                    <table class="table">
+                    <thead>
+                        <tr>
+
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Apelldio</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php foreach($nombre as $nomb):?>
+                        <?php foreach($apellido as $ape):?>
+                        <tr>
+                        <th scope="row"><?php echo($nomb) ?></th>
+                        <td><?php echo($ape) ?></td>
+
+                        </tr>
+
+                        <?php endforeach?>
+                        <?php endforeach?>
+                    </tbody>
+                    </table>
 
                 <?php endif ?>
 
