@@ -173,7 +173,7 @@
                         
                         <tr>
                         <th scope="row"><?php echo($nomb) ?></th>
-                        <td></td>
+                        <td>  </td>
 
                         </tr>
 
