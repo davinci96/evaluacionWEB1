@@ -168,16 +168,17 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <?php foreach($nombre as $nomb):?>
-                        <?php foreach($apellido as $ape):?>
+                        <?php foreach($nombre as $nomb):
+                             ?>
+                        
                         <tr>
                         <th scope="row"><?php echo($nomb) ?></th>
-                        <td><?php echo($ape) ?></td>
+                        <td></td>
 
                         </tr>
 
-                        <?php endforeach?>
-                        <?php endforeach?>
+                        
+                             <?php   endforeach?>
                     </tbody>
                     </table>
 
