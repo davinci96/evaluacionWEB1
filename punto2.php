@@ -30,6 +30,9 @@
         <li class="nav-item">
             <a class="nav-link" href="punto5.php">Punto 5</a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="punto6.php">Punto 6</a>
+        </li>
 
         </ul>
 

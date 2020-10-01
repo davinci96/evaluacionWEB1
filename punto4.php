@@ -18,7 +18,7 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
+        <li class="nav-item">
             <a class="nav-link" href="punto2.php">Punto 2 <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
@@ -29,6 +29,9 @@
         </li>
         <li class="nav-item">
             <a class="nav-link" href="punto5.php">Punto 5</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="punto6.php">Punto 6</a>
         </li>
 
         </ul>
